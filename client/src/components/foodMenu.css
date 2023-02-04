@@ -1,0 +1,19 @@
+.foodMenu-list-ul{
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    margin-top: 2%;
+    gap: 6%;
+}
+
+.foodMenu-division{
+    width: 95%;
+    height: 5px;
+    background-color: rgb(228, 200, 58);
+    margin-bottom: 50px;
+}
+
+.foodMenu-list-li:hover{
+    color: rgba(64, 124, 118, 0.842);
+    cursor: pointer;
+}

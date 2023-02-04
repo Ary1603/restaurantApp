@@ -1,0 +1,33 @@
+.logo-img-about-us{
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 42%;
+}
+
+.container-about-us{
+    display: flex;
+    margin-top: 3%;
+    gap: 5%;
+}
+
+.description-about-us{
+    padding-top: 2%;
+    padding-right: 2%;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .principal-container{
+        display: block !important;
+    }
+    .about-us-img{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 1025px) {
+    .about-us-img{
+        display: none;
+    }
+    
+}

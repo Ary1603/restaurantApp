@@ -1,0 +1,81 @@
+.sidebar-container {
+    background-color: rgba(232, 248, 248, 0.637);
+    width: 22%;
+    border-radius: 25px;
+    height: 100vh;
+    margin-top: 2%;
+}
+
+.logo-img {
+    width: 40%;
+    margin: 2% 26%;
+
+}
+
+.title-restaurant-name {
+    font-family: cursive;
+    text-align: center;
+}
+
+.luxury-web-list {
+    list-style: none;
+    font-size: 20px;
+    margin-top: 16%;
+
+}
+
+.luxury-web-list-li {
+    margin: 8% 0px;
+    width: 70%;
+    border-radius: 15px;
+}
+
+.luxury-web-list-li:hover {
+    background-color: rgba(201, 55, 111, 0.212);
+    cursor: pointer;
+}
+
+.for-help {
+    margin-top: 40%;
+    margin-left: 10%;
+
+}
+
+a {
+    color: black !important;
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar-container {
+        width: 100%;
+        height: 220px;
+    }
+
+    .logo-img {
+        width: 10%;
+        margin: 2% 44%;
+    }
+
+    .luxury-web-list {
+        font-size: 16px;
+        margin-top: 5px;
+    
+    }
+
+    .luxury-web-list-li {
+        margin: 10px 0px;
+        margin-left: 25px;
+        width: 200px;
+        float: left;
+    }
+
+    .for-help {
+        display: none;
+    
+    }
+}

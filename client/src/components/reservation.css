@@ -1,0 +1,48 @@
+.form-container{
+    width: 60%;
+    height: 570px;
+    margin: 2.5% 20%;
+    background-color: rgba(153, 212, 232, 0.151);
+}
+.user-data-container{
+    padding: 5%;
+}
+
+.title-reservation-form{
+    text-align: center;
+}
+
+.input-title{
+    margin-top: 3%;
+    font-size: 22px;
+}
+
+.principal-inputs{
+    width: 60%;
+}
+
+.btn-submit{
+    width: 10%;
+    margin: 0px 43%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .form-container{
+        width: 60%;
+        margin: 2.5% 10%;
+    }
+
+    .btn-submit{
+        width: 40%;
+        margin: 0px 28%;
+    }
+}
+
+
+@media screen and (max-width: 1025px) {
+    .btn-submit{
+        width: 40%;
+        margin: 0px 28%;
+    }
+}
